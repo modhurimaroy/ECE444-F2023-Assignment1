@@ -10,3 +10,12 @@ class Utils:
 
 		else:
 			result = int(str(n)[::-1])
+
+		return result
+	
+	def formatter(self, n):
+
+		binary = bin(n)
+		octal = oct(n)
+
+		return binary, octal
