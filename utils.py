@@ -1,7 +1,7 @@
 class Utils:
 	
-	def __init__(self):
-		pass
+	# def __init__(self):
+	# 	pass
 	
 	def reversed(self, n):
 		
@@ -19,3 +19,12 @@ class Utils:
 		octal = oct(n)
 
 		return binary, octal
+	
+if __name__ == "__main__":
+	utilsInstance = Utils()
+	testNumber = 645
+	result = utilsInstance.reversed(testNumber)
+	binary, octal = utilsInstance.formatter(37)
+	print("Reversed number: ", result)
+	print("Binary number: ", binary)
+	print("Octal number: ", octal)
