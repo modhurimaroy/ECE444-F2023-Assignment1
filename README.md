@@ -16,9 +16,10 @@ Screenshots for Activity 3:
 <img width="1278" alt="Screenshot 2023-09-11 at 1 55 57 AM" src="https://github.com/modhurimaroy/ECE444-F2023-Assignment1/assets/65404767/30373b48-2f35-446c-a080-29eae4c897cf">
 
 
-Screenshot for Activity 4:
+Screenshot for Activity 4 [The commits for activity 4 are marked in orange arrows because I added some changes after the commits for activity 5]:
 
-<img width="1231" alt="Screenshot 2023-09-12 at 5 08 02 PM" src="https://github.com/modhurimaroy/ECE444-F2023-Assignment1/assets/65404767/217662a5-d9b4-42d3-a404-62ff679ec1fb">
+<img width="1325" alt="Screenshot 2023-09-14 at 4 35 57 PM" src="https://github.com/modhurimaroy/ECE444-F2023-Assignment1/assets/65404767/879651e6-d7ab-4331-8d31-961b6b690cf7">
+
 
 Screenshots for Activity 5:
 The first screenshot shows the initial rebase I made on 'develop' branch with the 'rebase'  branch and the order of commits is c1 -> c2 -> c3 -> c4, as can be seen from the git log
