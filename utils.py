@@ -4,20 +4,24 @@ class Utils:
 	# 	pass
 	
 	def reversed(self, n):
-		
-		if(n < 0):
-			result = - int(str(n)[::-1])
+		if isinstance(n, int):
+			if(n < 0):
+				result = - int(str(n)[::-1])
 
+			else:
+				result = int(str(n)[::-1])
 		else:
-			result = int(str(n)[::-1])
-
+			raise ValueError("Integer input required!")
 		return result
 	
 	def formatter(self, n):
-
-		binary = bin(n)
-		octal = oct(n)
-
+		if isinstance(n, int):
+			binary = bin(n)
+			octal = oct(n)
+		
+		else:
+			raise ValueError("Integer input required!")
+		
 		return binary, octal
 	
 if __name__ == "__main__":
